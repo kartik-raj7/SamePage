@@ -6,8 +6,11 @@
     padding-top: 28px;
 }
 .sidenavClosed {
-    composes: sidenav;
+    width: 250px;
     transition: width 0.3s ease-in-out;
+    height: 100vh;
+    background-color: rgb(10,25,41);
+    padding-top: 28px;
     width: 60px
 }
 .sideitem {
