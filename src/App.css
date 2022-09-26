@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+}
+main {
+  padding: 10px;
+}
+.top-nav{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+}
+.side-icons{
+  display:flex;
+  margin-left: 300px;
+}
+.side-icons button{
+  background-color: transparent;
+
+}
+button{
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px 10px 10px 10px;
+  border: 0.2px solid grey;
+  border-radius: 5px;
+}
+button:hover{
+  background-color:blue;
+  color:white;
+
+}
+.h3 .trial{
+  color:blue;
+}
+.statsbar{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(208, 205, 200,0.4);
+
+  border-radius: 15px;
+  /* border: 2px solid grey; */
+}
+.statsbar-content{
+ margin: 10px 10px 10px 10px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 15px;
+  width:25%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.statusbar{
+  margin-top: 10px;
+}
